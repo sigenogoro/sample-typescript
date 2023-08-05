@@ -1,5 +1,13 @@
 "use strict";
-function x(a) {
-    return "aaaaa";
+class Point {
+    constructor(x, y) {
+        this.x = x;
+        this.y = y;
+    }
+    add(point) {
+        return new Point(this.x + point.x, this.y + point.y);
+    }
 }
-console.log(x(1111));
+var p1 = new Point(0, 10);
+var p2 = new Point(10, 20);
+var p3 = p1.add(p2); // {x:10,y:30}
