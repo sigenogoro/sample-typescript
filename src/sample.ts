@@ -1,3 +1,3 @@
-const obj = {a: "aaa"}
-obj.a = "bbb"
-console.log(obj)
+const num: Number = 2344
+let un: undefined
+console.log(un)

@@ -1,4 +1,4 @@
 "use strict";
-const obj = { a: "aaa" };
-obj.a = "bbb";
-console.log(obj);
+const num = 2344;
+let un;
+console.log(un);
